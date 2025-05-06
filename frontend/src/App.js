@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div style={{ padding: '2rem', maxWidth: '600px', margin: '0 auto' }}>
-      <h1>💸 Expense List</h1>
+      <h1>Expense List</h1>
 
       <form onSubmit={handleSubmit} style={{ marginBottom: '2rem' }}>
         <input type="text" name="description" placeholder="Description" value={form.description} onChange={handleChange} required />
